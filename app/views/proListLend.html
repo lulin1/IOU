@@ -1,0 +1,10 @@
+<ion-view view-title="欠条详情" class="pro-list-lend">
+    <ion-content  scroll="true">
+            <ul class="pro-list-ul-lend">
+                <li class="pro-list-li-lend" ng-repeat="d in data.debtContractList" ng-click="proListProtocol(d.url)">
+                    <span class="name">{{d.title}}</span>
+                    <span class="to-more"></span>
+                </li>
+            </ul>
+    </ion-content>
+</ion-view>

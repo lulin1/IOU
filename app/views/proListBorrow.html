@@ -1,0 +1,10 @@
+<ion-view view-title="欠条详情" class="pro-list">
+    <ion-content  scroll="true">
+            <ul class="pro-list-ul">
+                <li class="pro-list-li" ng-repeat="d in data.iouContractList" ng-click="proListProtocol(d.url)">
+                    <span class="name">{{d.title}}</span>
+                    <span class="to-more"></span>
+                </li>
+            </ul>
+    </ion-content>
+</ion-view>

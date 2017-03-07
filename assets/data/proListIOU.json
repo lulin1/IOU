@@ -1,0 +1,38 @@
+{
+  "error": {
+    "returnCode": "0",
+    "returnMessage": "success",
+    "returnUserMessage": "操作成功"
+  },
+  "data": {
+
+    "iouContractList" : [
+      {
+        "title": "欠款协议",
+        "url": "http://www.jiedaibao.com"
+      },
+      {
+        "title": "借款协议",
+        "url": "http://www.baidu.com"
+      },
+      {
+        "title": "ll协议",
+        "url": "http://www.jiedaibao.com"
+      }
+    ],
+    "debtContractList" : [
+      {
+        "title": "欠款协议",
+        "url": "http://www.123.com"
+      },
+      {
+        "title": "借款协议",
+        "url": "http://www.456.com"
+      }
+    ]
+    
+  }
+    
+  
+}
+

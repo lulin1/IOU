@@ -1,0 +1,46 @@
+<ion-view view-title="欠条详情" class="view">
+    <ion-content class="detail-list" scroll="true">
+        <div class="iou-info-div" ng-if="true">
+            <ul class="iou-info-ul">
+                <li class="title">
+                    {{data.title}}
+                </li>
+                <li class="info-detail" ng-repeat="d in data.infoDetail" link-url="{{d.url}}">
+                    <span class="name">{{d.left}}
+                        <span class="value">{{d.right}}</span>
+                    <span class="show-more" ng-if="d.url"></span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="transform" ng-if="data.borrowInfo.length>0">
+
+            <div class="open" ng-if="open" ng-click="transOpen()">
+                <span class="left">欠条到期后已转为借款</span>
+                <span class="txt">展开</span>
+                <span class="pic"></span>
+            </div>
+            <div class="close" ng-if="close" ng-click="transClose()">
+                <span class="left">欠条到期后已转为借款</span>
+                <span class="txt">收起</span>
+                <span class="pic"></span>
+            </div>
+
+            <div class="info" ng-show="transInfo">
+                <ul class="transaction-info">
+                    <li class="title">
+                        {{data.title}}
+                    </li>
+                    <li class="info-detail" ng-repeat="d in data.borrowInfo" link-url="{{d.url}}">
+                        <span class="name">{{d.left}}
+                            <span class="value">{{d.right}}</span>
+                        <span class="show-more" ng-if="d.url"></span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

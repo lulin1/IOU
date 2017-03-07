@@ -1,0 +1,47 @@
+{
+    "error": {
+        "returnCode": "0",
+        "returnMessage": "success",
+        "returnUserMessage": "成功"
+    },
+    "data": {
+        "iouInfoList": [
+            { 
+                "title": "欠条信息", 
+                "infoDetail": [
+                    {   
+                        "left": "欠条", 
+                        "right": "2015/12/21" 
+                    }, 
+                    { 
+                        "left": "欠条", 
+                        "right": "2015/12/21" 
+                    }, 
+                    { 
+                        "left": "欠条协议", 
+                        "url": "http://h5.dev.jiedaibao.com/contract/partials/contract/index.html?contract_data_contract_no=&contract_data_jiafang_name=%E6%88%91%E7%88%B1%E6%B0%91&contract_data_jiafang_id=130101%2A%2A%2A%2A%2A%2A%2A%2A2934&contract_data_yifang_name=%E4%BA%8C%E4%BA%94&contract_data_yifang_id=110101%2A%2A%2A%2A%2A%2A%2A%2A1413&contract_data_amount=100&contract_data_reason=%E8%B5%8A%E8%B4%A6&contract_data_repayTime=2016%E5%B9%B411%E6%9C%8821%E6%97%A5&contract_data_rate=10.00&contract_data_createTime=&contract_head_tail=1&templateCode=ious_template&templateVersion=2016112101" 
+                    }
+                ] 
+            }
+        ],
+        "lendoutInfoList": [
+            {
+                "title": "借款信息",
+                "infoDetail": [
+                    { 
+                        "left": "发起日",
+                        "right": "2015/12/21" 
+                    }, 
+                    {
+                        "left": "到期日", 
+                        "right": "2015/12/21" 
+                    }, 
+                    {
+                        "left": "借款协议", 
+                        "url": "http://h5.dev.jiedaibao.com/contract/partials/contract/index.html?contract_data_contract_no=&contract_data_jiafang_name=%E6%88%91%E7%88%B1%E6%B0%91&contract_data_jiafang_id=130101%2A%2A%2A%2A%2A%2A%2A%2A2934&contract_data_yifang_name=%E4%BA%8C%E4%BA%94&contract_data_yifang_id=110101%2A%2A%2A%2A%2A%2A%2A%2A1413&contract_data_amount=100&contract_data_reason=%E8%B5%8A%E8%B4%A6&contract_data_repayTime=2016%E5%B9%B411%E6%9C%8821%E6%97%A5&contract_data_rate=10.00&contract_data_createTime=&contract_head_tail=1&templateCode=ious_template&templateVersion=2016112101" 
+                    }
+                ] 
+            }
+        ]
+    }
+}

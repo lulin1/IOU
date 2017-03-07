@@ -1,0 +1,30 @@
+.pro-list {
+		background-color: #f5f7fa;
+		.pro-list-ul {
+			margin-top: 20px;
+			background-color: #fff;
+			@include onepx-border-horizontal(#e1e3e5);
+			.pro-list-li {
+				@include onepx-border-top(#e1e3e5);
+				margin-left: 16px;
+				.name {
+					padding: 13px 0;
+					font-size: 16px;
+					display: inline-block;			
+					position: relative;
+				}
+			}
+		}
+
+        .to-more{
+			background: url(../images/toMore.png) no-repeat center center;
+			background-size: contain;
+			display: inline-block;
+			min-height: 12px;
+			min-width: 12px;
+            position: absolute;
+            right: 30px;
+            margin-top: 15px;
+		}
+
+}

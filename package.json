@@ -1,0 +1,24 @@
+{
+  "name": "tradeIOUIouPro",
+  "private": true,
+  "browser": {},
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {},
+  "devDependencies": {
+    "@JDB/build": "^0.1.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "karma start test/karma.conf.js"
+  }
+}

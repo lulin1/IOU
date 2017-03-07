@@ -1,0 +1,31 @@
+{
+    "IOUApi": {
+        "serve": "./data/IOU.json",
+        "dev": "http://api.dev.jiedaibao.com/mybankv21/phptradeui/events/finance",
+        "test": "http://api.test.jiedaibao.com/mybankv21/phptradeui/events/finance",
+        "beta": "http://beta-tradeapi.jiedaibao.com/mybankv21/phptradeui/events/finance",
+        "prod": "https://tradeapi.jiedaibao.com/mybankv21/phptradeui/events/finance"
+    },
+    "IOUBorrowApi": {
+	    "serve": "./data/borrowIOU.json",
+	    "dev": "http://api3.dev.jiedaibao.com/mybankv21/phptradeui/iou/borrowDetailInfo",
+	    "test": "http://api.test.jiedaibao.com/mybankv21/phptradeui/iou/borrowDetailInfo",
+	    "beta": "http://beta-tradeapi.jiedaibao.com/mybankv21/phptradeui/iou/borrowDetailInfo",
+	    "prod": "https://tradeapi.jiedaibao.com/mybankv21/phptradeui/iou/borrowDetailInfo"
+    },
+    "IOULendApi": {
+        "serve": "./data/lendIOU.json",
+        "dev": "http://api3.dev.jiedaibao.com/mybankv21/phptradeui/iou/lendoutDetailInfo",
+        "test": "http://api.test.jiedaibao.com/mybankv21/phptradeui/iou/lendoutDetailInfo",
+        "beta": "http://beta-tradeapi.jiedaibao.com/mybankv21/phptradeui/iou/lendoutDetailInfo",
+        "prod": "https://tradeapi.jiedaibao.com/mybankv21/phptradeui/iou/lendoutDetailInfo"
+    },
+    "IOUProListApi": {
+        "serve": "./data/proListIOU.json",
+        "dev": "http://api.dev.jiedaibao.com/mybankv21/phptradeui/events/finance",
+        "test": "http://api.test.jiedaibao.com/mybankv21/phptradeui/events/finance",
+        "beta": "http://beta-tradeapi.jiedaibao.com/mybankv21/phptradeui/events/finance",
+        "prod": "https://tradeapi.jiedaibao.com/mybankv21/phptradeui/events/finance"
+    }
+}
+

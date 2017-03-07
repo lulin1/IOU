@@ -1,0 +1,154 @@
+.view {
+    background-color: #f5f7fa;
+
+        .iou-info-ul {
+            background-color: #fff;
+
+            .title {
+                margin-left: 16px;
+                font-size: 30px;
+                color: #979899;
+                width: 100%;
+                padding: 11px 0;
+                font-size: 16px;
+                display: inline-block;
+                /*@include onepx-border-top(#e1e3e5);*/
+                position: relative;
+            }
+
+            .name {
+                margin-left: 16px;
+                width: 100%;
+                @include onepx-border-top(#e1e3e5);
+                padding: 11px 0;
+                font-size: 16px;
+                display: inline-block;
+                position: relative;
+                    .value {
+                        position: absolute;
+                        right: 30px;
+                        margin-top: 2px;
+                    }
+                    .show-more {
+                        background: url(../images/toMore.png) no-repeat center center;
+                        background-size: contain;
+                        display: inline-block;
+                        min-height: 12px;
+                        min-width: 12px;
+                        position: absolute;
+                        right: 30px;
+                        margin-top: 4px;
+                    }
+            }  
+
+        }
+
+        .open {
+            background-color: #f5f7fa;
+            /*@include onepx-border-top(blue);*/
+            font-size: 30px;
+            color: #979899;
+            width: 100%;
+            padding: 11px 0;
+            font-size: 14px;
+            display: inline-block;
+            position: relative;
+            .left {
+                margin-left: 16px;
+                font-size: 14px;
+                display: inline-block;
+                position: relative;
+            }
+            .txt {
+                font-size: 14px;
+                color: #4e81c1;
+                position: absolute;
+                right: 34px;
+            }
+            .pic {
+                background: url(../images/downArrow.png) no-repeat center center;
+                background-size: contain;
+                display: inline-block;
+                min-height: 18px;
+                min-width: 18px;
+                position: absolute;
+                right: 14px;
+            }
+        }
+
+        .close {
+            background-color: #f5f7fa;
+            /*@include onepx-border-top(#e1e3e5);*/
+            font-size: 30px;
+            color: #979899;
+            width: 100%;
+            padding: 11px 0;
+            font-size: 14px;
+            display: inline-block;
+            position: relative;
+            .left {
+                margin-left: 16px;
+                font-size: 14px;
+                display: inline-block;
+                position: relative;
+            }
+            .txt {
+                font-size: 14px;
+                color: #4e81c1;
+                position: absolute;
+                right: 34px;
+            }
+            .pic {
+                background: url(../images/upArrow.png) no-repeat center center;
+                background-size: contain;
+                display: inline-block;
+                min-height: 20px;
+                min-width: 20px;
+                position: absolute;
+                right: 14px;
+            }
+        }
+
+        .info {
+            background: #fff;
+
+            .title {
+                margin-left: 16px;
+                font-size: 30px;
+                color: #979899;
+                width: 100%;
+                padding: 11px 0;
+                font-size: 16px;
+                display: inline-block;
+                /*@include onepx-border-top(#e1e3e5);*/
+                position: relative;
+            }    
+
+            .name {
+                @include onepx-border-top(#e1e3e5);
+                margin-left: 16px;
+                /*width: 100%;*/
+                padding: 11px 0;
+                font-size: 16px;
+                display: inline-block;
+                position: relative;
+                .value {
+                    position: absolute;
+                    right: 30px;
+                    margin-top: 2px;
+                }
+                .show-more {
+                    background: url(../images/toMore.png) no-repeat center center;
+                    background-size: contain;
+                    display: inline-block;
+                    min-height: 12px;
+                    min-width: 12px;
+                    position: absolute;
+                    right: 30px;
+                    margin-top: 4px;
+                }
+            }      
+
+        }
+
+}
