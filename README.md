@@ -10,3 +10,5 @@ Issue Count Badge [![Issue Count](https://codeclimate.com/github/lulinliao/TCP-U
 gulp  [![npm version](https://badge.fury.io/js/gulp.svg)](https://badge.fury.io/js/gulp)
 
 babel-plugin-transform-async-to-generator  [![npm version](https://badge.fury.io/js/babel-plugin-transform-async-to-generator.svg)](https://badge.fury.io/js/babel-plugin-transform-async-to-generator)
+
+browserify-shim    [![npm version](https://badge.fury.io/js/browserify-shim.svg)](https://badge.fury.io/js/browserify-shim)
