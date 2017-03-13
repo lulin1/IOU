@@ -12,3 +12,6 @@ gulp  [![npm version](https://badge.fury.io/js/gulp.svg)](https://badge.fury.io/
 babel-plugin-transform-async-to-generator  [![npm version](https://badge.fury.io/js/babel-plugin-transform-async-to-generator.svg)](https://badge.fury.io/js/babel-plugin-transform-async-to-generator)
 
 browserify-shim    [![npm version](https://badge.fury.io/js/browserify-shim.svg)](https://badge.fury.io/js/browserify-shim)
+
+
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
